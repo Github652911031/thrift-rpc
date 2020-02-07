@@ -1,0 +1,95 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientProperties",
+      "name": "spring.thrift.client",
+      "type": "com.zy.rpc.thrift.client.properties.ThriftClientProperties"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "name": "spring.thrift.client.pool",
+      "type": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientProperties",
+      "name": "spring.thrift.client.package-to-scan",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientProperties",
+      "name": "spring.thrift.client.pool",
+      "type": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": 10000,
+      "name": "spring.thrift.client.pool.connect-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": 40,
+      "name": "spring.thrift.client.pool.pool-max-idle-per-key",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": 60,
+      "name": "spring.thrift.client.pool.pool-max-total-per-key",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": 180000,
+      "name": "spring.thrift.client.pool.pool-max-wait",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": 3,
+      "name": "spring.thrift.client.pool.pool-min-idle-per-key",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": 3,
+      "name": "spring.thrift.client.pool.retry-times",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": true,
+      "name": "spring.thrift.client.pool.test-on-borrow",
+      "description": "池对象借出时验证是否正常可用",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": true,
+      "name": "spring.thrift.client.pool.test-on-create",
+      "description": "池对象创建时时验证是否正常可用",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "defaultValue": true,
+      "name": "spring.thrift.client.pool.test-on-return",
+      "description": "池对象归还时验证是否正常可用",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties",
+      "name": "spring.thrift.client.pool.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zy.rpc.thrift.client.properties.ThriftClientProperties",
+      "name": "spring.thrift.client.service-model",
+      "description": "服务模型(单线程\/多线程\/阻塞\/非阻塞) <p> simple: 单线程阻塞模型 nonBlocking: 单线程非阻塞模型 threadPool: 线程池同步模型 hsHa: 半同步半异步模型 threadedSelector: 线程池选择器模型 <\/p>",
+      "type": "java.lang.String"
+    }
+  ]
+}

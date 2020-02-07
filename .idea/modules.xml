@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Rpcthrift.iml" filepath="$PROJECT_DIR$/Rpcthrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator.iml" filepath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/calculator-client.iml" filepath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/calculator-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/calculator-iface.iml" filepath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/calculator-iface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/calculator-server.iml" filepath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/calculator-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-client/rpc-thrift-client.iml" filepath="$PROJECT_DIR$/rpc-thrift-client/rpc-thrift-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-sample/rpc-thrift-sample.iml" filepath="$PROJECT_DIR$/rpc-thrift-sample/rpc-thrift-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-thrift-server/rpc-thrift-server.iml" filepath="$PROJECT_DIR$/rpc-thrift-server/rpc-thrift-server.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+com.zy.rpc.thrift.client.annotation.EnableThriftClient=\
+com.zy.rpc.thrift.client.ThriftClientAutoConfiguration

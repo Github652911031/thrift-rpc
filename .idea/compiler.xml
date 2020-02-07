@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="calculator-client" />
+        <module name="calculator-iface" />
+        <module name="calculator-server" />
+        <module name="rpc-thrift-client" />
+        <module name="rpc-thrift-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="calculator" target="1.8" />
+      <module name="calculator-client" target="1.8" />
+      <module name="calculator-iface" target="1.8" />
+      <module name="calculator-server" target="1.8" />
+      <module name="rpc-thrift-client" target="1.8" />
+      <module name="rpc-thrift-sample" target="1.5" />
+      <module name="rpc-thrift-server" target="1.8" />
+      <module name="Rpcthrift" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
