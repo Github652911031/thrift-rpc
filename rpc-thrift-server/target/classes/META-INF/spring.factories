@@ -1,3 +1,0 @@
-com.zy.rpc.thrift.server.annotation.EnableThriftServer=\
-com.zy.rpc.thrift.server.ThriftServerAutoConfiguration,\
-com.zy.rpc.thrift.server.ThriftServerDiscoveryConfiguration

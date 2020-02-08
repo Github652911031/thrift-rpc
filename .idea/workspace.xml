@@ -1,7 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d62f23b5-9cd3-40b8-b48a-e2c958f7ee01" name="Default" comment="" />
+    <list default="true" id="d62f23b5-9cd3-40b8-b48a-e2c958f7ee01" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rpc-thrift-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-client/target/rpc-thrift-client-1.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/rpc-thrift-client/target/rpc-thrift-client-1.0-SNAPSHOT-sources.jar" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-client/target/rpc-thrift-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/rpc-thrift-client/target/rpc-thrift-client-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/calculator-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/calculator-client-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/calculator-client-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/calculator-client-1.0-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/Application.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/Application.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/controller/RestCalculatorController.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/controller/RestCalculatorController.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/controller/RpcCalculatorController.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/controller/RpcCalculatorController.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/rest/CalculatorFeignClient.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/classes/com/zy/rpc/thrift/examples/rest/CalculatorFeignClient.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/calculator-iface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/calculator-iface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/http/ICalculatorService.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/http/ICalculatorService.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$Factory.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$Factory.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$add_call.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$add_call.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$division_call.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$division_call.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$multiply_call.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$multiply_call.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$subtract_call.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient$subtract_call.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncClient.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncIface.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncIface.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$add$1.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$add$1.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$add.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$add.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$division$1.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$division$1.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$division.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$division.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$multiply$1.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$multiply$1.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$multiply.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$multiply.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$subtract$1.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$subtract$1.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$subtract.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor$subtract.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$AsyncProcessor.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Client$Factory.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Client$Factory.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Client.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Client.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Iface.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Iface.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$add.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$add.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$division.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$division.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$multiply.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$multiply.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$subtract.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor$subtract.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$Processor.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args$add_argsStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args$add_argsStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args$add_argsTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args$add_argsTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_args.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result$add_resultStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result$add_resultStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result$add_resultTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result$add_resultTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$add_result.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args$division_argsStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args$division_argsStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args$division_argsTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args$division_argsTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_args.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result$division_resultStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result$division_resultStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result$division_resultTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result$division_resultTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$division_result.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args$multiply_argsStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args$multiply_argsStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args$multiply_argsTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args$multiply_argsTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_args.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result$multiply_resultStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result$multiply_resultStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result$multiply_resultTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result$multiply_resultTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$multiply_result.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args$subtract_argsStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args$subtract_argsStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args$subtract_argsTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args$subtract_argsTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_args.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result$_Fields.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result$_Fields.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result$subtract_resultStandardScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result$subtract_resultStandardScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result$subtract_resultTupleScheme.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result$subtract_resultTupleScheme.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/classes/com/zy/rpc/thrift/examples/thrift/CalculatorService$subtract_result.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/calculator-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/calculator-server-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/calculator-server-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/calculator-server-1.0-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/classes/com/zy/rpc/thrift/examples/Application.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/classes/com/zy/rpc/thrift/examples/Application.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/classes/com/zy/rpc/thrift/examples/rest/RestCalculatorService.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/classes/com/zy/rpc/thrift/examples/rest/RestCalculatorService.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/classes/com/zy/rpc/thrift/examples/rpc/RpcCalculatorService.class" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/classes/com/zy/rpc/thrift/examples/rpc/RpcCalculatorService.class" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rpc-thrift-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-server/target/rpc-thrift-server-1.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/rpc-thrift-server/target/rpc-thrift-server-1.0-SNAPSHOT-sources.jar" />
+      <change beforePath="$PROJECT_DIR$/rpc-thrift-server/target/rpc-thrift-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/rpc-thrift-server/target/rpc-thrift-server-1.0-SNAPSHOT.jar" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rpc-thrift-client/target/" />
@@ -23,61 +103,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ThriftServerNodeList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/common/ThriftServerNodeList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ThriftClientBeanScanner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientBeanScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="104" column="78" lean-forward="false" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="78" />
+            <state relative-caret-position="297">
+              <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1717#1718#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThriftClientAdvice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientAdvice.java">
+      <file leaf-file-name="ThriftClientFactoryBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="110" column="58" lean-forward="false" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThriftServiceWrapperFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-server/src/main/java/com/zy/rpc/thrift/server/wrapper/ThriftServiceWrapperFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="88">
+              <caret line="41" column="84" lean-forward="false" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TRegisterProcessorFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-server/src/main/java/com/zy/rpc/thrift/server/processor/TRegisterProcessorFactory.java">
+      <file leaf-file-name="ThriftClientInvocationHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="352">
+              <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="THsHaServerArgument.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThriftClientAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/ThriftClientAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThriftClientBeanPostProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/ThriftClientBeanPostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="THsHaServerArgument.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-thrift-server/src/main/java/com/zy/rpc/thrift/server/argument/THsHaServerArgument.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -87,35 +166,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThriftConsulServerListLoadBalancer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/loadbalancer/ThriftConsulServerListLoadBalancer.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="237">
+              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IRule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/loadbalancer/IRule.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="286">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoundRobinRule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/loadbalancer/RoundRobinRule.java">
+      <file leaf-file-name="ThriftClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/annotation/ThriftClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="155">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -235,6 +311,24 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rpc-thrift" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rpc-thrift" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rpc-thrift-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rpc-thrift-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="rpc-thrift-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -277,6 +371,47 @@
             <path>
               <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-thrift-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-thrift-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-thrift-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-thrift-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-thrift-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thrift-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thrift-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-thrift-server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,12 +616,12 @@
       <workItem from="1580541978390" duration="19282000" />
       <workItem from="1580830029799" duration="94000" />
       <workItem from="1581057008237" duration="6000" />
-      <workItem from="1581057093446" duration="677000" />
+      <workItem from="1581057093446" duration="5138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136893000" />
+    <option name="totallyTimeSpent" value="141354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -508,10 +643,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29944134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.298627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3444206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3444206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -548,28 +683,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar!/org/slf4j/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-thrift-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-thrift-server/src/main/java/com/zy/rpc/thrift/server/properties/ThriftServerDiscoveryProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
@@ -691,39 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/wrapper/ThriftClientWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/ThriftClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/ThriftClientBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2332">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -855,22 +939,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientBeanScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="104" column="78" lean-forward="false" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1716">
           <caret line="110" column="58" lean-forward="false" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,8 +986,8 @@
         <state relative-caret-position="374">
           <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -930,6 +1004,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/ThriftClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/ThriftClientBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/annotation/ThriftClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientBeanScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+          <folding>
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="41" column="84" lean-forward="false" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java/com/zy/rpc/thrift/client/scanner/ThriftClientInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding />
         </state>
       </provider>
