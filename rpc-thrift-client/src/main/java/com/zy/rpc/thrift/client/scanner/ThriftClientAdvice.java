@@ -77,6 +77,7 @@ public class ThriftClientAdvice implements MethodInterceptor {
 
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
+
         if (Objects.isNull(properties)) {
             this.properties = ThriftClientContext.context().getProperties();
         }
@@ -114,11 +115,16 @@ public class ThriftClientAdvice implements MethodInterceptor {
 
                 Object client = clientConstructor.newInstance(multiplexedProtocol);
 
+
+
+
                 Method cachedMethod = ThriftServiceMethodCacheManager.getMethod(client.getClass(),
                         invocationMethod.getName(),
                         invocationMethod.getParameterTypes());
 
-                return ReflectionUtils.invokeMethod(cachedMethod, client, args);
+
+                Object o = ReflectionUtils.invokeMethod(cachedMethod, client, args);
+                return o;
 
             } catch (IllegalArgumentException | IllegalAccessException | InstantiationException | SecurityException | NoSuchMethodException e) {
                 throw new ThriftClientOpenException("Unable to open thrift client", e);
@@ -186,6 +192,7 @@ public class ThriftClientAdvice implements MethodInterceptor {
                     throw e;
                 }
             } finally {
+
                 try {
                     if (objectPool != null && transport != null) {
                         objectPool.returnObject(serverNode, transport);
@@ -193,6 +200,7 @@ public class ThriftClientAdvice implements MethodInterceptor {
                 } catch (Exception e) {
                     LOGGER.error(e.getMessage(), e);
                 }
+
             }
         }
     }

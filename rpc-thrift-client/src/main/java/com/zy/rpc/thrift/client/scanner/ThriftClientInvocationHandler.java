@@ -4,6 +4,8 @@ package com.zy.rpc.thrift.client.scanner;
 import com.zy.rpc.thrift.client.common.ThriftServiceSignature;
 import org.apache.thrift.TServiceClient;
 import org.apache.thrift.protocol.TProtocol;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.ProxyFactoryBean;
 import org.springframework.beans.BeanUtils;
 
@@ -14,6 +16,8 @@ import java.util.Objects;
 
 public class ThriftClientInvocationHandler implements InvocationHandler {
 
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(ThriftClientInvocationHandler.class);
     private ThriftServiceSignature serviceSignature;
 
     private Class<?> clientClass;
@@ -56,7 +60,7 @@ public class ThriftClientInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        Runtime.getRuntime().gc();
+//        Runtime.getRuntime().gc();
         return proxyFactoryBean.getObject();
     }
 }

@@ -3,11 +3,18 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-sample" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-iface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-sample/calculator/calculator-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-thrift-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-thrift-server/src/main/resources" charset="UTF-8" />
   </component>
 </project>
