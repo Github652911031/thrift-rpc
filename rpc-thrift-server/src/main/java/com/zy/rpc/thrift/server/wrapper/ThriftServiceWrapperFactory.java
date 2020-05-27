@@ -8,13 +8,10 @@ import java.util.Objects;
 
 public final class ThriftServiceWrapperFactory {
 
-    public static ThriftServiceWrapper wrapper(final String thriftServiceId, String thriftServiceName, Object thriftService, double version) {
+    public static ThriftServiceWrapper wrapper(final String thriftServiceId, String thriftServiceName, Object thriftService) {
         ThriftServiceWrapper thriftServiceWrapper;
-        if (version <= -1) {
-            thriftServiceWrapper = new ThriftServiceWrapper(thriftServiceName, thriftService.getClass(), thriftService);
-        } else {
-            thriftServiceWrapper = new ThriftServiceWrapper(thriftServiceName, thriftService.getClass(), thriftService, version);
-        }
+        thriftServiceWrapper = new ThriftServiceWrapper(thriftServiceName, thriftService.getClass(), thriftService);
+
 
         Class<?> thriftServiceIface = Arrays.stream(thriftService.getClass().getInterfaces())
                 .filter(iface -> iface.getName().endsWith("$Iface"))
@@ -25,8 +22,7 @@ public final class ThriftServiceWrapperFactory {
         thriftServiceWrapper.setIfaceType(thriftServiceIface);
 
         final String signature = String.join("$", new String[]{
-                thriftServiceId, thriftServiceIface.getDeclaringClass().getName(),
-                String.valueOf(version)
+                thriftServiceId, thriftServiceIface.getDeclaringClass().getName()
         });
 
         thriftServiceWrapper.setThriftServiceSignature(signature);

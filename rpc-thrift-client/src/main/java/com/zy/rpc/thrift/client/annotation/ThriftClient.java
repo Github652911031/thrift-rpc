@@ -1,5 +1,6 @@
 package com.zy.rpc.thrift.client.annotation;
 
+import com.zy.rpc.thrift.client.loadbalancer.RoundRobinRule;
 import org.springframework.core.annotation.AliasFor;
 
 import java.lang.annotation.*;
@@ -18,8 +19,10 @@ public @interface ThriftClient {
 
     String serviceId();
 
-    double version() default 1.0;
+    Class<?> balancer() default RoundRobinRule.class;
 
     Class<?> refer();
+
+
 
 }

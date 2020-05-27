@@ -9,7 +9,6 @@ import com.zy.rpc.thrift.client.discovery.ThriftConsulServerNode;
 import com.zy.rpc.thrift.client.discovery.ThriftConsulServerNodeList;
 import com.zy.rpc.thrift.client.exception.*;
 import com.zy.rpc.thrift.client.loadbalancer.IRule;
-import com.zy.rpc.thrift.client.loadbalancer.RoundRobinRule;
 import com.zy.rpc.thrift.client.loadbalancer.ThriftConsulServerListLoadBalancer;
 import com.zy.rpc.thrift.client.pool.TransportKeyedObjectPool;
 import com.zy.rpc.thrift.client.properties.ThriftClientPoolProperties;
@@ -69,10 +68,14 @@ public class ThriftClientAdvice implements MethodInterceptor {
 
         ThriftConsulServerNodeList serverNodeList = ThriftConsulServerNodeList.singleton(consul);
 
-        IRule routerRule = new RoundRobinRule();
-        this.loadBalancer = new ThriftConsulServerListLoadBalancer(serverNodeList, routerRule);
-
-        routerRule.setLoadBalancer(loadBalancer);
+        IRule routerRule;
+        try {
+            routerRule = (IRule) this.serviceSignature.getThriftLoadBalancer().newInstance();
+            this.loadBalancer = new ThriftConsulServerListLoadBalancer(serverNodeList, routerRule);
+            routerRule.setLoadBalancer(loadBalancer);
+        } catch (Exception e) {
+            LOGGER.error("can not find balancer class {}", this.serviceSignature.getThriftLoadBalancer().getName(),  e);
+        }
     }
 
     @Override

@@ -80,7 +80,7 @@ public final class ThriftClientBeanScanner extends ClassPathBeanDefinitionScanne
             definition.getPropertyValues().addPropertyValue(ThriftClientDefinitionProperty.SERVICE_CLASS, referClass);
 
             ThriftServiceSignature serviceSignature = new ThriftServiceSignature(
-                    thriftClient.serviceId(), thriftClient.refer(), thriftClient.version());
+                    thriftClient.serviceId(), thriftClient.refer(), thriftClient.balancer());
 
             Class<? extends TServiceClient> clientClass = getClientClassFromAnnotation(beanClass);
             Constructor<? extends TServiceClient> constructor;

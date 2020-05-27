@@ -1,17 +1,22 @@
 package com.zy.rpc.thrift.client.common;
 
+import com.zy.rpc.thrift.client.loadbalancer.RoundRobinRule;
+
 public class ThriftServiceSignature {
 
     private String thriftServiceId;
 
     private Class<?> thriftServiceClass;
 
-    private double version;
+    private Class<?> thriftLoadBalancer;
 
-    public ThriftServiceSignature(String thriftServiceId, Class<?> thriftServiceClass, double version) {
+    public ThriftServiceSignature(String thriftServiceId, Class<?> thriftServiceClass) {
+        this(thriftServiceId, thriftServiceClass, RoundRobinRule.class);
+    }
+    public ThriftServiceSignature(String thriftServiceId, Class<?> thriftServiceClass, Class<?> thriftLoadBalancer) {
         this.thriftServiceId = thriftServiceId;
         this.thriftServiceClass = thriftServiceClass;
-        this.version = version;
+        this.thriftLoadBalancer = thriftLoadBalancer;
     }
 
     public String getThriftServiceId() {
@@ -30,18 +35,17 @@ public class ThriftServiceSignature {
         this.thriftServiceClass = thriftServiceClass;
     }
 
-    public double getVersion() {
-        return version;
+    public Class<?> getThriftLoadBalancer() {
+        return thriftLoadBalancer;
     }
 
-    public void setVersion(double version) {
-        this.version = version;
+    public void setThriftLoadBalancer(Class<?> thriftLoadBalancer) {
+        this.thriftLoadBalancer = thriftLoadBalancer;
     }
 
     public String marker() {
         return String.join("$", new String[]{
-                thriftServiceId, thriftServiceClass.getName(),
-                String.valueOf(version)
+                thriftServiceId, thriftServiceClass.getName()
         });
     }
 }
